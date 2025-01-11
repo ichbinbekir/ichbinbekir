@@ -43,4 +43,5 @@ func main() {
 	if err := run(); err != nil {
 		log.Fatal(err)
 	}
+	time.Sleep(time.Hour)
 }
